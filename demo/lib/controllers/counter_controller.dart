@@ -19,7 +19,7 @@ class CounterController extends GetxController{
     update();
   }
 
-  void decrementByThree()=> {
+  void decrementByTwo()=> {
     counter = counter-2;
     update();
 }

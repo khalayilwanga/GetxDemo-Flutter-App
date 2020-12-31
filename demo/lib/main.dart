@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import './widgets/home.dart';
 import './widgets/second.dart';
 import './widgets/third.dart';
-import './bindings/homeBinding.dart'
+import './bindings/homeBinding.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyHomePage().routeName,
       initialBinding: HomeBinding(),
       getPages: [
-        GetPage(name: SecondPage().routeName, page: () => SecondPage(),binding: BindingsBuilder(()=>{Get.put(AgeController())},
+        GetPage(name: SecondPage().routeName, page: () => SecondPage(),binding: BindingsBuilder(()=>{Get.put(AgeController())}),
         GetPage(name: ThirdPage().routeName, page: () => ThirdPage(),binding: BindingsBuilder(()=>{Get.put(CounterController())}),
 
     );

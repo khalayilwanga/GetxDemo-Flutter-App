@@ -1,6 +1,6 @@
 import 'package:get/get.dart'; 
-import '.controllers/age_controller.dart'
-import '.controllers/counter_controller.dart'
+import '.controllers/age_controller.dart';
+import '.controllers/counter_controller.dart';
 
 class HomeBinding implements Bindings{
   @override
